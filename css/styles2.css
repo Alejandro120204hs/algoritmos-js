@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cont-principal{
+    width: 100%;
+    min-height: 110vh;
+    background: #000d14;
+    text-align: center;
+    padding: 80px 100px;
+}
+h1{
+    color: aqua;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+p{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+hr{
+    margin-bottom: 40px;
+    border-color: aqua;
+}
+button{
+    padding: 10px 30px;
+    background: aqua;
+    color: #000d14;
+    border-radius: 6px;
+    border: 1px solid aqua;
+    margin: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+button:hover{
+    background: #000d14;
+    color: aqua;
+    border-radius: 0;
+    box-shadow: 0 4px 3px aqua;
+}
+h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 40px 0
+}

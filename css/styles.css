@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#cont-principal{
+    width: 100%;
+    min-height: 110vh;
+    background: #000d14;
+    text-align: center;
+    padding: 80px 100px;
+}
+h1{
+    color:aqua;
+    font-size: 50px;
+    margin-bottom: 40px;
+   
+}
+p{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 10px 5px;
+    background: aqua;
+    color: #000d14;
+    border-radius: 6px;
+    border: 1px solid aqua;
+    margin: 5px;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 15rem;
+    height: 70px;   
+    
+  
+}
+
+hr{
+    margin-bottom: 40px;
+    border-color: aqua;
+}
+button:hover{
+    background: #000d14;
+    color: aqua;
+    border-radius: 5px;
+    box-shadow: 0 4px 3px aqua;
+}
+h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 40px 0
+}
+
+    
+
